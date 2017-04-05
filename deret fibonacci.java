@@ -21,11 +21,11 @@ public class Rpl {
         fib[0] = 0;
         fib[1] = 1;
          
-        for(int i = 2; i < n; i++) {
-            fib[i] = fib[i-1] + fib[i-2];
+        for(int x = 2; x < n; x++) {
+            fib[x] = fib[x-1] + fib[x-2];
         }
          
-        for (int i = 0; i < n; i++) {
+        for (int x = 0; x < n; x++) {
             System.out.print(fib[i] +  " ");
         }
     }
